@@ -476,6 +476,102 @@
                     }
                 ]
             }
+        },
+        {
+            "_id": "artnet.meta.fungeneration-separ-hex-led-rgbaw-uv-ir-6ch",
+            "type": "meta",
+            "parent": "artnet.meta",
+            "meta": {
+                "adapter": "artnet",
+                "type": "fixture"
+            },
+            "common": {
+                "name": "Fun Generation SePar Hex LED RGBAW UV IR 6ch"
+            },
+            "native": {
+                "channel": {
+                    "type": "channel",
+                    "common": {
+                        "role": "light.fungeneration-separ-hex-led-rgbaw-uv-ir-6ch-mode"
+                    },
+                    "native": {}
+                },
+                "length": 6,
+                "states": [
+                    {
+                        "type": "state",
+                        "common": {
+                            "role": "level.color.red",
+                            "type": "number",
+                            "min": 0,
+                            "max": 255,
+                            "write": true,
+                            "read": false
+                        },
+                        "native": {}
+                    },
+                    {
+                        "type": "state",
+                        "common": {
+                            "role": "level.color.green",
+                            "type": "number",
+                            "min": 0,
+                            "max": 255,
+                            "write": true,
+                            "read": false
+                        },
+                        "native": {}
+                    },
+                    {
+                        "type": "state",
+                        "common": {
+                            "role": "level.color.blue",
+                            "type": "number",
+                            "min": 0,
+                            "max": 255,
+                            "write": true,
+                            "read": false
+                        },
+                        "native": {}
+                    },
+                    {
+                        "type": "state",
+                        "common": {
+                            "role": "level.color.white",
+                            "type": "number",
+                            "min": 0,
+                            "max": 255,
+                            "write": true,
+                            "read": false
+                        },
+                        "native": {}
+                    },
+                    {
+                        "type": "state",
+                        "common": {
+                            "role": "level.color.amber",
+                            "type": "number",
+                            "min": 0,
+                            "max": 255,
+                            "write": true,
+                            "read": false
+                        },
+                        "native": {}
+                    },
+                    {
+                        "type": "state",
+                        "common": {
+                            "role": "level.color.uv",
+                            "type": "number",
+                            "min": 0,
+                            "max": 255,
+                            "write": true,
+                            "read": false
+                        },
+                        "native": {}
+                    }
+                ]
+            }
         }
     ]
 }
