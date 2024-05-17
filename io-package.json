@@ -572,6 +572,270 @@
                     }
                 ]
             }
+        },
+        {
+            "_id": "artnet.meta.fungeneration-separ-hex-led-rgbaw-uv-ir-8ch",
+            "type": "meta",
+            "parent": "artnet.meta",
+            "meta": {
+                "adapter": "artnet",
+                "type": "fixture"
+            },
+            "common": {
+                "name": "Fun Generation SePar Hex LED RGBAW UV IR 8ch"
+            },
+            "native": {
+                "channel": {
+                    "type": "channel",
+                    "common": {
+                        "role": "light.fungeneration-separ-hex-led-rgbaw-uv-ir-8ch-mode"
+                    },
+                    "native": {}
+                },
+                "length": 6,
+                "states": [
+                    {
+                        "type": "state",
+                        "common": {
+                            "role": "level.dimmer",
+                            "type": "number",
+                            "min": 0,
+                            "max": 255,
+                            "write": true,
+                            "read": false
+                        },
+                        "native": {}
+                    },
+                    {
+                        "type": "state",
+                        "common": {
+                            "role": "level.color.red",
+                            "type": "number",
+                            "min": 0,
+                            "max": 255,
+                            "write": true,
+                            "read": false
+                        },
+                        "native": {}
+                    },
+                    {
+                        "type": "state",
+                        "common": {
+                            "role": "level.color.green",
+                            "type": "number",
+                            "min": 0,
+                            "max": 255,
+                            "write": true,
+                            "read": false
+                        },
+                        "native": {}
+                    },
+                    {
+                        "type": "state",
+                        "common": {
+                            "role": "level.color.blue",
+                            "type": "number",
+                            "min": 0,
+                            "max": 255,
+                            "write": true,
+                            "read": false
+                        },
+                        "native": {}
+                    },
+                    {
+                        "type": "state",
+                        "common": {
+                            "role": "level.color.white",
+                            "type": "number",
+                            "min": 0,
+                            "max": 255,
+                            "write": true,
+                            "read": false
+                        },
+                        "native": {}
+                    },
+                    {
+                        "type": "state",
+                        "common": {
+                            "role": "level.color.amber",
+                            "type": "number",
+                            "min": 0,
+                            "max": 255,
+                            "write": true,
+                            "read": false
+                        },
+                        "native": {}
+                    },
+                    {
+                        "type": "state",
+                        "common": {
+                            "role": "level.color.uv",
+                            "type": "number",
+                            "min": 0,
+                            "max": 255,
+                            "write": true,
+                            "read": false
+                        },
+                        "native": {}
+                    },
+                    {
+                        "type": "state",
+                        "common": {
+                            "role": "level.dimmer.strobe",
+                            "type": "number",
+                            "min": 0,
+                            "max": 255,
+                            "write": true,
+                            "read": false
+                        },
+                        "native": {}
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "artnet.meta.fungeneration-separ-hex-led-rgbaw-uv-ir-10ch",
+            "type": "meta",
+            "parent": "artnet.meta",
+            "meta": {
+                "adapter": "artnet",
+                "type": "fixture"
+            },
+            "common": {
+                "name": "Fun Generation SePar Hex LED RGBAW UV IR 10ch"
+            },
+            "native": {
+                "channel": {
+                    "type": "channel",
+                    "common": {
+                        "role": "light.fungeneration-separ-hex-led-rgbaw-uv-ir-10ch-mode"
+                    },
+                    "native": {}
+                },
+                "length": 6,
+                "states": [
+                    {
+                        "type": "state",
+                        "common": {
+                            "role": "level.dimmer",
+                            "type": "number",
+                            "min": 0,
+                            "max": 255,
+                            "write": true,
+                            "read": false
+                        },
+                        "native": {}
+                    },
+                    {
+                        "type": "state",
+                        "common": {
+                            "role": "level.color.red",
+                            "type": "number",
+                            "min": 0,
+                            "max": 255,
+                            "write": true,
+                            "read": false
+                        },
+                        "native": {}
+                    },
+                    {
+                        "type": "state",
+                        "common": {
+                            "role": "level.color.green",
+                            "type": "number",
+                            "min": 0,
+                            "max": 255,
+                            "write": true,
+                            "read": false
+                        },
+                        "native": {}
+                    },
+                    {
+                        "type": "state",
+                        "common": {
+                            "role": "level.color.blue",
+                            "type": "number",
+                            "min": 0,
+                            "max": 255,
+                            "write": true,
+                            "read": false
+                        },
+                        "native": {}
+                    },
+                    {
+                        "type": "state",
+                        "common": {
+                            "role": "level.color.white",
+                            "type": "number",
+                            "min": 0,
+                            "max": 255,
+                            "write": true,
+                            "read": false
+                        },
+                        "native": {}
+                    },
+                    {
+                        "type": "state",
+                        "common": {
+                            "role": "level.color.amber",
+                            "type": "number",
+                            "min": 0,
+                            "max": 255,
+                            "write": true,
+                            "read": false
+                        },
+                        "native": {}
+                    },
+                    {
+                        "type": "state",
+                        "common": {
+                            "role": "level.color.uv",
+                            "type": "number",
+                            "min": 0,
+                            "max": 255,
+                            "write": true,
+                            "read": false
+                        },
+                        "native": {}
+                    },
+                    {
+                        "type": "state",
+                        "common": {
+                            "role": "level.program1",
+                            "type": "number",
+                            "min": 0,
+                            "max": 255,
+                            "write": true,
+                            "read": false
+                        },
+                        "native": {}
+                    },
+                    {
+                        "type": "state",
+                        "common": {
+                            "role": "level.program2",
+                            "type": "number",
+                            "min": 0,
+                            "max": 255,
+                            "write": true,
+                            "read": false
+                        },
+                        "native": {}
+                    },
+                    {
+                        "type": "state",
+                        "common": {
+                            "role": "level.dimmer.strobe",
+                            "type": "number",
+                            "min": 0,
+                            "max": 255,
+                            "write": true,
+                            "read": false
+                        },
+                        "native": {}
+                    }
+                ]
+            }
         }
     ]
 }
